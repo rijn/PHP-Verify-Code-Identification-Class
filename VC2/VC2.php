@@ -275,7 +275,7 @@ class VerifyCode {
 				$flag = false;
 				for ($j = 0; $j < imagesy($temp); $j++)
 				{
-					$pixelrgb = imagecolorat($temp, $min, $j);
+					$pixelrgb = imagecolorat($temp, $max, $j);
 					$cols     = imagecolorsforindex($temp, $pixelrgb);
 					$r        = $cols['red'];
 					if ($r < 230)
