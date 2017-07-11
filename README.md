@@ -1,7 +1,7 @@
 # PHP-Verify-Code-Identification-Class
 A simple php class for verification code identification.
 
-**This class is too slow to use in a prod env, please use other librarys such as [tesseract](https://github.com/tesseract-ocr/tesseract) instead.**
+**This class is too slow to use in a prod env, please use other libraries such as [tesseract](https://github.com/tesseract-ocr/tesseract) instead.**
 
 ## Usage
 * Import the class file and create the instance of the class
